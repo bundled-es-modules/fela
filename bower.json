@@ -1,0 +1,5 @@
+{
+  "name": "fela",
+  "description": "mirror of fela for bower, bundled and exposed as ES module",
+  "author": "Mikhail Bashkirov <bashmish@gmail.com>"
+}

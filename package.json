@@ -1,0 +1,16 @@
+{
+  "name": "fela",
+  "description": "mirror of fela for bower, bundled and exposed as ES module",
+  "author": "Mikhail Bashkirov <bashmish@gmail.com>",
+  "main": "index.js",
+  "devDependencies": {
+    "fela": "6.2.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-commonjs": "^9.1.5",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-virtual": "^1.0.1"
+  },
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js"
+  }
+}
