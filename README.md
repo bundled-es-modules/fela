@@ -1,10 +1,11 @@
 # fela
 
-This is a mirror of [fela](https://www.npmjs.com/package/fela) for bower, bundled and exposed as ES module.
+This is a mirror of [fela](https://www.npmjs.com/package/fela), bundled and exposed as ES module.
 
 ## Install
 
 ```
+npm install @bundled-es-modules/fela
 bower install bundled-es-modules/fela
 ```
 
@@ -13,9 +14,11 @@ bower install bundled-es-modules/fela
 ```html
 <script type="module">
   // from main file
-  import { createRenderer, combineRules, enhance } from './bower_components/fela/index.js';
+  import { createRenderer, combineRules, enhance } from 'fela';
   // or directly
-  import { createRenderer, combineRules, enhance } from './bower_components/fela/fela.js';
+  import { createRenderer, combineRules, enhance } from 'fela/fela.js';
   console.log(createRenderer, combineRules, enhance);
 </script>
 ```
+
+Make sure you added `@bundled-es-modules` scope to the path if used via npm.
